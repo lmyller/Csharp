@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIMC", "CalculoIMC\Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{81E14647-5388-4424-8CB4-70291A7EA77F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaGeral", "MediaGeral\MediaGeral.csproj", "{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{81E14647-5388-4424-8CB4-70291A7EA77F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E14647-5388-4424-8CB4-70291A7EA77F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E14647-5388-4424-8CB4-70291A7EA77F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
