@@ -8,11 +8,14 @@ namespace Calculadora
 {
     internal class Program
     {
+        #region Main
         static void Main(string[] args)
         {
             calculadora();
         }
+        #endregion
 
+        #region menu
         private static void calculadora()
         {
             int opcao;
@@ -35,49 +38,66 @@ namespace Calculadora
                 }
             } while (opcao != 5);
         }
+        #endregion
 
+        #region Exibir Resultado
         private static void exibirResultado(double resultado)
         {
             exibirMensagem("Resultado: " + resultado);
         }
+        #endregion
 
+        #region somar
         private static double somar(double numero1, double numero2)
         {
             return numero1 + numero2;
         }
+        #endregion
 
+        #region Subtrair
         private static double subtrair(double numero1, double numero2)
         {
             return numero1 - numero2;
         }
-        
+        #endregion
+
+        #region Multiplicar
         private static double multiplicar(double numero1, double numero2)
         {
             return numero1 * numero2;
         }
+        #endregion
 
+        #region Dividir
         private static double dividir(double numero1, double numero2)
         {
             return numero1 / numero2;
         }
+        #endregion
 
+        #region Ler Numero Inteiro
         private static int lerNumeroInteiro(string mensagem)
         {
             exibirMensagem(mensagem);
 
             return int.Parse(Console.ReadLine());
         }
+        #endregion
 
+        #region Ler Numero Real
         private static double lerNumeroReal(string mensagem)
         {
             exibirMensagem(mensagem);
 
             return double.Parse(Console.ReadLine());
         }
+        #endregion
 
+        #region Exibir Mensagem
         private static void exibirMensagem(string mensagem)
         {
             Console.Write(mensagem);
         }
+        #endregion
     }
 }

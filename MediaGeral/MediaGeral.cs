@@ -8,11 +8,14 @@ namespace MediaGeral
 {
     internal class MediaGeral
     {
+        #region Main
         static void Main(string[] args)
         {
             new MediaGeral();
         }
+        #endregion
 
+        #region Média Geral
         public MediaGeral()
         {
             Aluno aluno = criarAluno();
@@ -22,7 +25,9 @@ namespace MediaGeral
 
             exibirMensagem($"A média da nota do aluno {aluno.Nome} é {calcularMediaNota(aluno)}");
         }
+        #endregion
 
+        #region Calcular Média da Nota
         private float calcularMediaNota(Aluno aluno)
         {
             float soma = 0;
@@ -33,7 +38,9 @@ namespace MediaGeral
 
             return soma / quantidadeProvas;
         }
+        #endregion
 
+        #region Somar Notas
         private float somarNotasProvas(Disciplina disciplina, ref int quantidadeProvas)
         {
             float soma = 0;
@@ -45,12 +52,16 @@ namespace MediaGeral
 
             return soma;
         }
+        #endregion
 
+        #region Criar Aluno
         private Aluno criarAluno()
         {
             return new Aluno(lerString("Nome do aluno: "), lerNumeroInteiro("Número de disciplinas: "));
         }
+        #endregion
 
+        #region Criar Disciplina
         private Disciplina criarDisciplina(int indice)
         {
             Disciplina disciplina = new Disciplina($"Disciplina{indice}", lerNumeroInteiro("Número de provas:"));
@@ -61,31 +72,40 @@ namespace MediaGeral
             Console.WriteLine(disciplina.Nome);
             return disciplina;  
         }
+        #endregion
 
+        #region Ler Nota
         private float lerNota(string mensagem)
         {
             exibirMensagem(mensagem);
 
             return float.Parse(Console.ReadLine());
         }
+        #endregion
 
+        #region Ler String
         private string lerString(string mensagem)
         {
             exibirMensagem(mensagem);
 
             return Console.ReadLine();
         }
+        #endregion
 
+        #region Ler Numero Inteiro
         private int lerNumeroInteiro(string mensagem)
         {
             exibirMensagem(mensagem);
 
             return int.Parse(Console.ReadLine());  
         }
+        #endregion
 
+        #region Exibir Mensagem
         private void exibirMensagem(string mensagem)
         {
             Console.Write(mensagem);
         }
+        #endregion
     }
 }

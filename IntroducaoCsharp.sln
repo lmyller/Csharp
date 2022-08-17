@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaGeral", "MediaGeral\MediaGeral.csproj", "{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaCadastro", "SistemaCadastro\SistemaCadastro.csproj", "{0100FC70-117D-470C-9828-50EAC00C2F9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginSystem", "SistemaLogin\LoginSystem.csproj", "{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0100FC70-117D-470C-9828-50EAC00C2F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0100FC70-117D-470C-9828-50EAC00C2F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0100FC70-117D-470C-9828-50EAC00C2F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0100FC70-117D-470C-9828-50EAC00C2F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
