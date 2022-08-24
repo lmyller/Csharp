@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InverterNomes", "InverterNomes\InverterNomes.csproj", "{D6C48E59-A9BC-41AC-8A90-6B7D8811E73F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InverterNomes", "InverterNomes\InverterNomes.csproj", "{D6C48E59-A9BC-41AC-8A90-6B7D8811E73F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConversorTemperatura", "ConversorTemperatura\ConversorTemperatura.csproj", "{A9DA20A0-2CBE-4353-A9FE-A3F7D55E6D96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConversorTemperatura", "ConversorTemperatura\ConversorTemperatura.csproj", "{A9DA20A0-2CBE-4353-A9FE-A3F7D55E6D96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoIMC", "CalculoIMC\CalculoIMC.csproj", "{5A02CD7C-9BF2-47B6-A0D6-32E9F5B45525}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculoIMC", "CalculoIMC\CalculoIMC.csproj", "{5A02CD7C-9BF2-47B6-A0D6-32E9F5B45525}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculadora", "Calculadora\Calculadora.csproj", "{81E14647-5388-4424-8CB4-70291A7EA77F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculadora", "Calculadora\Calculadora.csproj", "{81E14647-5388-4424-8CB4-70291A7EA77F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaGeral", "MediaGeral\MediaGeral.csproj", "{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaGeral", "MediaGeral\MediaGeral.csproj", "{D449D2CF-0E1D-4BDA-8816-73312C8BBC98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaCadastro", "SistemaCadastro\SistemaCadastro.csproj", "{0100FC70-117D-470C-9828-50EAC00C2F9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaCadastro", "SistemaCadastro\SistemaCadastro.csproj", "{0100FC70-117D-470C-9828-50EAC00C2F9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginSystem", "SistemaLogin\LoginSystem.csproj", "{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoginSystem", "LoginSystem\LoginSystem.csproj", "{E0B68F1E-A942-46AA-9002-F42F8308AE0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{0100FC70-117D-470C-9828-50EAC00C2F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0100FC70-117D-470C-9828-50EAC00C2F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0100FC70-117D-470C-9828-50EAC00C2F9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{42D82BE0-A5BE-42E2-86D1-E6C122AA5476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B68F1E-A942-46AA-9002-F42F8308AE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B68F1E-A942-46AA-9002-F42F8308AE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B68F1E-A942-46AA-9002-F42F8308AE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B68F1E-A942-46AA-9002-F42F8308AE0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
